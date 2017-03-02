@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+
+    <link rel="stylesheet" type="text/css" href="LoginAndRegister.css"/>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <script src="LoginAndRegister.css" type="text/javascript"></script>
+</head>
+
+
+<body id="loginBody">
+
+<!--USE AND PASSWORD FOR LOGIN-->
+<div id="login">
+
+    <form name="f" action="login" method="get">
+
+        <b>Username</b>:<br>
+            <input type="text" name="u" id="u"/> <br>
+
+        <b>Password</b>:<br>
+            <input type="password" name="p" id="p"/><br>
+
+        <b>Password confirmation</b>:<br>
+            <input type="password1" name="p1" id="p1"/><br><br>
+
+
+        <input type="submit" value="Login"><br><br>
+        <a href="RegisterForm.html">Click to register</a>
+
+    </form>
+</div>
+
+<!--SET CURENT DAY-->
+<p id="today"></p>
+<script>
+    var day;
+    switch (new Date().getDay()) {
+        case 0:
+            day = "Sunday";
+            break;
+        case 1:
+            day = "Monday";
+            break;
+        case 2:
+            day = "Tuesday";
+            break;
+        case 3:
+            day = "Wednesday";
+            break;
+        case 4:
+            day = "Thursday";
+            break;
+        case 5:
+            day = "Friday";
+            break;
+        case  6:
+            day = "Saturday";
+    }
+    document.getElementById("today").innerHTML = "Today is " + day;
+</script>
+
+</body>
+</html>

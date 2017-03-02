@@ -1,0 +1,36 @@
+/*LOGIN CSS*/
+
+#loginBody{
+    font-family:'Open Sans', sans-serif;
+    font-size:14px;
+    background-image:url("login_img.png");
+    background-repeat: no-repeat;
+    background-color: goldenrod;
+}
+
+#login{
+    background-color: lightgrey;
+    width: 300px;
+    border: 55px solid rgba(85, 107, 47, 0.42);
+    padding: 25px;
+    margin-left: 310px;
+}
+
+
+/*REGISTER CSS*/
+
+#registerBody{
+    font-family:'Open Sans', sans-serif;
+    font-size:14px;
+    background-image:url("registrate_img.png");
+    background-repeat: no-repeat;
+    background-color: goldenrod;
+}
+
+#register{
+    background-color: lightgrey;
+    width: 300px;
+    border: 55px solid rgba(85, 107, 47, 0.42);
+    padding: 25px;
+    margin-left: 310px;
+}
