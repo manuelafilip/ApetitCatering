@@ -1,0 +1,168 @@
+body {
+    background-image:url("poza_background - Copy.jpg");
+    font-family: Verdana, Arial, Georgia;
+    color: deeppink;
+}
+
+#logo{
+    background-image:url("logo.jpg");
+    margin-top: 30px;
+    margin-left: 10px;
+    padding: 0px;
+
+}
+#navMenu{
+    margin-top: 20px;
+    margin-left: 640px;
+    padding: 0px;
+
+
+}
+
+#navMenu ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+
+
+}
+
+#navMenu li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    position: relative;
+    background-color: rgba(230, 165, 26, 0.61);
+    border-radius: 10px;
+
+}
+
+#navMenu ul li a{
+    text-align: center;
+    font-family: "Comic Sans MS";
+    text-decoration: none;
+    height: 30px;
+    width: 150px;
+    display: block;
+    color: midnightblue;
+    border: 1px solid rgba(85, 107, 47, 0.6);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+}
+#navMenu ul ul{
+    position: absolute;
+    visibility: hidden;
+    top: 32px;
+    display: inline;
+    border-radius: 10px;
+}
+
+#navMenu ul li:hover ul{
+    visibility: visible;
+}
+
+/******************/
+#navMenu li:hover{
+    background-color: darkgreen;
+}
+
+#navMenu ul li:hover ul li a:hover{
+    background: darkgreen;
+    color: whitesmoke;
+}
+
+#navMenu a:hover{
+    color: whitesmoke;
+
+}
+
+.clearFloat{
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#wrapper{
+    width:100;
+
+}
+
+
+
+/*.ul{*/
+    /*list-style-type: none;*/
+    /*margin: 0;*/
+    /*padding: 0px;*/
+    /*text-align: center;*/
+/*}*/
+
+
+/*#meniu{*/
+    /*width: 150px;*/
+    /*margin: 0;*/
+    /*padding: 0px;*/
+
+/*}*/
+
+
+
+/*#meniu li{*/
+    /*background-color: goldenrod;*/
+    /*border: 1px black;*/
+    /*color: #4129ff;*/
+    /*font-weight: bold;*/
+    /*margin: 0;*/
+    /*padding: 0px;*/
+    /*float: left;*/
+    /*position: relative;*/
+/*}*/
+/*#meniu li:hover{*/
+    /*background-color: wheat;*/
+    /*color: grey;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*#meniu li:hover ul{*/
+    /*display: block;*/
+
+/*}*/
+
+/*.submeniu{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 150px;*/
+    /*display: none;*/
+    /*float: left;*/
+    /*margin: 0;*/
+    /*padding: 0px;*/
+
+/*}*/
+/*.submeniu>li{*/
+   /*background-color: goldenrod;*/
+    /*border: 1px outset black;*/
+    /*width: 130px;*/
+    /*padding: 2px;*/
+    /*color: palevioletred;*/
+    /*float: left;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
